@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Competition</title>
+  <style>
+    body { margin:0; background:#0a0e1a; display:flex; flex-direction:column;
+           align-items:center; justify-content:center; min-height:100vh;
+           font-family:'Segoe UI',sans-serif; color:#e1e8ff; }
+    h2   { color:#00c8d2; letter-spacing:2px; margin-bottom:14px; }
+    p    { color:#6e80a5; font-size:0.83rem; margin-top:10px; text-align:center; }
+    applet { border:2px solid #28345a; border-radius:8px; }
+  </style>
+</head>
+<body>
+<h2>Quiz Competition</h2>
+<!-- Applet HTML tag — Unit 5: Applet HTML tags and Attributes -->
+<applet code="QuizApplet.class" width="700" height="580">
+  <p style="color:#f04646">
+    Java Applets are not supported in this browser.<br>
+    Run via AppletViewer: <code>appletviewer quiz.html</code><br>
+    Or as standalone:     <code>java QuizApplet</code>
+  </p>
+</applet>
+<p>JDK 8:  javac QuizApplet.java &nbsp;|&nbsp; appletviewer quiz.html</p>
+</body>
+</html>
